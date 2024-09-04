@@ -11,7 +11,7 @@
         :sizeClass="'size-16px'"
       />
     </div>
-    <img class="arrow-image" src="/assets/svg/arrow.svg" alt="arrow" />
+    <img class="arrow-image" src="/svg/arrow.svg" alt="arrow" />
   </div>
 </template>
 

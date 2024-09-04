@@ -1,7 +1,7 @@
 <template>
   <header class="header-component">
-    <img src="../assets/img/jungle.png" class="left-leafs" />
-    <img src="../assets/img/jungle.png" class="right-leafs" />
+    <img src="/img/jungle.png" class="left-leafs" />
+    <img src="/img/jungle.png" class="right-leafs" />
     <div class="header-wrapper">
       <GoldButton :clickFunction="show" />
       <LogoWebociraptorFull />

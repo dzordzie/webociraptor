@@ -3,7 +3,7 @@
     <div class="customer-wrap">
       <img
         class="quotation-marks"
-        src="/assets/svg/quotation-marks.svg"
+        src="/svg/quotation-marks.svg"
         alt="quotes"
       />
       <p class="customers-words">

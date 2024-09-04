@@ -1,8 +1,8 @@
 <template>
   <div class="badges">
-    <img class="badge" src="~/assets/img/no1-winner.png" />
-    <img class="badge premium" src="~/assets/img/premium-choice.png" />
-    <img class="badge" src="~/assets/img/satisfaction-guarantee.png" />
+    <img class="badge" src="/img/no1-winner.png" />
+    <img class="badge premium" src="/img/premium-choice.png" />
+    <img class="badge" src="/img/satisfaction-guarantee.png" />
   </div>
 </template>
 

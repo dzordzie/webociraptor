@@ -1,9 +1,5 @@
 <template>
-  <img
-    class="logo-text"
-    src="~/assets/svg/logo-webociraptor.svg"
-    alt="riesenia"
-  />
+  <img class="logo-text" src="/svg/logo-webociraptor.svg" />
 </template>
 
 <style scoped>

@@ -3,14 +3,14 @@
     <TextHeading title="Have Questions?" />
     <div class="contact-info">
       <a class="phone" href="tel:+421(05)77781888">+421(05) 777 81 888</a>
-      <a class="mail" href="mailto:wrrr@webociraptor.com"
+      <a class="email" href="mailto:wrrr@webociraptor.com"
         >wrrr@webociraptor.com</a
       >
     </div>
     <LogoWebociraptorText id="logo" />
-    <img src="../assets/img/jungle2.png" class="bottom-leafs" />
+    <img src="/img/jungle2.png" class="bottom-leafs" />
     <div id="running-dino">
-      <img src="../assets/svg/velo-standing.svg" id="bouncing-dino" />
+      <img src="/svg/velo-standing.svg" id="bouncing-dino" />
     </div>
   </footer>
 </template>
@@ -62,14 +62,6 @@ onMounted(() => {
   font-size: 3rem;
   line-height: 3.6875rem;
   margin-top: 5rem;
-}
-
-.phone {
-  color: var(--light);
-}
-
-.mail {
-  color: var(--pinkish);
 }
 
 .logo-text {

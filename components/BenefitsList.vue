@@ -62,11 +62,11 @@ const selectedBenefits = computed(() => {
 }
 
 .benefit-item:nth-child(odd) .check-mark {
-  background-image: url('~/assets/svg/footprint-left.svg');
+  background-image: url('/svg/footprint-left.svg');
 }
 
 .benefit-item:nth-child(even) .check-mark {
-  background-image: url('~/assets/svg/footprint-right.svg');
+  background-image: url('/svg/footprint-right.svg');
 }
 
 /* =================== RESPONSIVE ======================= */

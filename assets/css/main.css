@@ -14,7 +14,7 @@
     #dbd480,
     #a3711b
   );
-  --clawPointer: url('~/assets/svg/cursor-pointer.svg'), pointer;
+  --clawPointer: url('/svg/cursor-pointer.svg'), pointer;
 }
 
 * {
@@ -31,6 +31,7 @@ html, dialog {
 a {
   text-decoration: none;
   cursor: var(--clawPointer);
+  color: var(--light);
 }
 
 button {
@@ -56,7 +57,7 @@ textarea {
   width: 100%;
   margin: 0 auto;
   background:
-    url(../img/ferns-background.png) 0 center no-repeat,
+    url(/img/ferns-background.png) 0 center no-repeat,
     linear-gradient(
       112deg,
       rgba(0, 38, 41, 1) 0%,

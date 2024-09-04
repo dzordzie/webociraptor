@@ -1,12 +1,12 @@
 <template>
   <div class="logo-full">
     <img
-      src="~/assets/svg/text-webociraptor.svg"
+      src="/svg/text-webociraptor.svg"
       alt="webociraptor"
       class="webocitext"
     />
     <img
-      src="~/assets/svg/stopy-webociraptor.svg"
+      src="/svg/stopy-webociraptor.svg"
       alt="webociraptor"
       class="webocistopy"
     />
