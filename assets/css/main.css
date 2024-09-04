@@ -66,7 +66,7 @@ textarea {
       rgba(84, 110, 112, 1) 73%
     );
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: fixed !important;
   overflow: hidden;
 }
 
