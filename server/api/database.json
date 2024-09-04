@@ -40,7 +40,7 @@
       "name": "Sundar Pichai",
       "position": "CEO of",
       "company": "Google LLC",
-      "logo": "_nuxt/assets/img/google-logo.png",
+      "logo": "~/assets/img/google-logo.png",
       "web": "https://www.google.com/"
     },
     {
@@ -48,28 +48,28 @@
       "name": "Tim Cook",
       "position": "CEO of",
       "company": "Apple Inc.",
-      "logo": "_nuxt/assets/img/apple-logo.png",
+      "logo": "~/assets/img/apple-logo.png",
       "web": "https://www.apple.com/"
     }
   ],
   "auditSteps": [
     {
-      "numberImage": "_nuxt/assets/svg/number-1.svg",
+      "numberImage": "~/assets/svg/number-1.svg",
       "title": "Identifying Needs",
       "text": "Set specific goals and craft a custom web design that sets you apart from the competition."
     },
     {
-      "numberImage": "_nuxt/assets/svg/number-2.svg",
+      "numberImage": "~/assets/svg/number-2.svg",
       "title": "Analysis",
       "text": "Use advanced tools to gather precise data that will lead to optimized solutions."
     },
     {
-      "numberImage": "_nuxt/assets/svg/number-3.svg",
+      "numberImage": "~/assets/svg/number-3.svg",
       "title": "Tactical Enhancements",
       "text": "Analyze insights, identify weaknesses, and implement improvements that strengthen your online dominance."
     },
     {
-      "numberImage": "_nuxt/assets/svg/number-4.svg",
+      "numberImage": "~/assets/svg/number-4.svg",
       "title": "Results Presentation",
       "text": "Deliver a final design that gives your brand a predatory advantage and ensures its leadership in the market."
     }
