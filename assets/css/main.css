@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+  --light: #c9c3bb;
+  --dark: #001d1f;
+  --backgroudn-dark: rgba(22, 37, 43, 0.5);
+  --backgroudn-semidark: rgb(17, 56, 59);
+  --outline: #d6d8dd;
+  --goldGradient: linear-gradient(
+    to right,
+    #b9903d,
+    #e4dd8f,
+    #b68928,
+    #dbd480,
+    #a3711b
+  );
+  --clawPointer: url('~/assets/svg/cursor-pointer.svg'), pointer;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Jost', sans-serif;
+}
+
+html, dialog {
+  font-size: 16px;
+  color: var(--light);
+}
+
+a {
+  text-decoration: none;
+  cursor: var(--clawPointer);
+}
+
+button {
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  cursor: var(--clawPointer);
+}
+
+dialog {
+  border: 0;
+  outline: none;
+}
+
+input,
+textarea {
+  border: none;
+  resize: none;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  background:
+    url(../img/ferns-background.png) 0 center no-repeat,
+    linear-gradient(
+      112deg,
+      rgba(0, 38, 41, 1) 0%,
+      rgba(1, 39, 42, 1) 30%,
+      rgba(32, 65, 68, 1) 50%,
+      rgba(84, 110, 112, 1) 73%
+    );
+  background-size: cover;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.main-content {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+}
+
+/* =================== RESPONSIVE ======================= */
+
+@media screen and (min-width: 769px) and (max-width: 1150px) {
+  .main-content {
+    width: 90%;
+  }
+}
+
+@media screen and (min-width: 376px) and (max-width: 768px) {
+  .main-content {
+    width: 85%;
+    max-width: 375px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .main-content {
+    box-sizing: border-box;
+    padding-left: 28px;
+    padding-right: 28px;
+    margin: 0 auto;
+  }
+}

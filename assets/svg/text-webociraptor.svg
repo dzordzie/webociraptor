@@ -1,0 +1,79 @@
+<svg width="806.993" height="299.96" viewBox="0 0 213.517 79.364" version="1.1" id="svg1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
+<defs>
+    <filter id='inset-shadow1'>
+      <!-- Shadow offset -->
+      <feOffset
+              dx='0.5'
+              dy='0.5'
+            />
+      <!-- Shadow blur -->
+    <feGaussianBlur
+              stdDeviation='0.4'
+              result='offset-blur'
+            />
+      <!-- Invert drop shadow to make an inset shadow-->
+      <feComposite
+              operator='out'
+              in='SourceGraphic'
+              in2='offset-blur'
+              result='inverse'
+            />
+      <!-- Cut colour inside shadow -->
+      <feFlood
+              flood-color='black'
+              flood-opacity='1'
+              result='color'
+            />
+      <feComposite
+              operator='in'
+              in='color'
+              in2='inverse'
+              result='shadow'
+            />
+      <!-- Placing shadow over element -->
+      <feComposite
+              operator='over'
+              in='shadow'
+              in2='SourceGraphic'
+            />
+  </filter>
+  <filter id='inset-shadow2'>
+      <!-- Shadow offset -->
+      <feOffset
+              dx='-0.3'
+              dy='-0.3'
+            />
+      <!-- Shadow blur -->
+    <feGaussianBlur
+              stdDeviation='0.4'
+              result='offset-blur'
+            />
+      <!-- Invert drop shadow to make an inset shadow-->
+      <feComposite
+              operator='out'
+              in='SourceGraphic'
+              in2='offset-blur'
+              result='inverse'
+            />
+      <!-- Cut colour inside shadow -->
+      <feFlood
+              flood-color='white'
+              flood-opacity='.05'
+              result='color'
+            />
+      <feComposite
+              operator='in'
+              in='color'
+              in2='inverse'
+              result='shadow'
+            />
+      <!-- Placing shadow over element -->
+      <feComposite
+              operator='over'
+              in='shadow'
+              in2='SourceGraphic'
+            />
+  </filter>
+  </defs>
+<g filter="url(#inset-shadow1) url(#inset-shadow2)" id="layer1" transform="translate(1.913 -108.818)">
+<g id="Layer_x0020_1" transform="matrix(.00742 0 0 .00742 -1.915 108.817)" style="clip-rule:evenodd;fill-rule:evenodd;image-rendering:optimizeQuality;shape-rendering:geometricPrecision;text-rendering:geometricPrecision"><g id="g1"><path fill="#b7afa4" fill-rule="nonzero" id="polygon7" d="m10787 7443 485 719 661-1538h-548l-223 679-375-752-376 752-223-679h-548l661 1538z"/><path id="1" fill="#b7afa4" fill-rule="nonzero" d="M13961 7377h295c107 0 203-14 288-44s152-73 201-130c50-57 75-126 75-208s-25-151-75-206c-49-55-116-97-201-124-85-28-181-41-288-41h-630v1445h671c128 0 237-13 328-39 90-26 159-68 206-126 48-58 71-135 71-231 0-77-18-143-54-198-37-54-85-98-144-133-59-34-124-59-195-75s-142-24-212-24h-336v248h274c26 0 51 1 74 4 22 3 43 8 61 16 17 7 32 18 42 33 10 14 15 33 15 56 0 39-9 67-27 85-17 18-41 30-70 35-29 6-60 8-95 8h-155v-764h114c52 0 90 9 115 26 24 17 36 45 36 82 0 25-6 46-17 64s-27 31-49 41-51 15-85 15h-233z"/><path id="2" fill="#b7afa4" fill-rule="nonzero" d="M15652 7346c0-71 13-133 39-186s63-95 112-124c48-30 106-45 173-45 72 0 131 15 179 45 47 29 83 71 108 124s37 115 37 186-13 133-39 186c-26 54-63 96-111 125-49 30-106 45-174 45-67 0-125-15-173-45-49-29-86-71-112-125-26-53-39-115-39-186zm-481 0c0 116 19 222 59 317 39 96 94 179 166 249 71 70 156 124 255 162 98 38 207 57 325 57 119 0 227-19 325-57 99-38 184-92 255-162 72-70 127-153 167-249 39-95 59-201 59-317 0-115-20-220-60-313-40-94-97-175-170-242-73-68-158-119-256-155s-204-54-320-54c-113 0-218 18-316 54s-183 87-256 155c-73 67-130 148-171 242-42 93-62 198-62 313z"/><path id="3" fill="#b7afa4" fill-rule="nonzero" d="M17529 7346c0-74 17-136 51-186 33-51 78-88 134-113s117-37 185-37c69 0 128 8 177 26 50 17 94 39 131 67 38 27 72 55 103 84v-466c-57-40-118-73-185-99-67-27-153-40-259-40-126 0-240 18-343 54s-191 87-264 155c-73 67-130 148-170 242-40 93-60 198-60 313 0 116 20 221 60 314 40 94 97 174 170 242 73 67 161 119 264 155s217 53 343 53c106 0 192-13 259-40s128-59 185-98v-467c-31 29-65 57-103 84-37 27-81 49-131 67-49 18-108 27-177 27-68 0-129-12-185-37s-101-62-134-113c-34-50-51-112-51-187z"/><path id="4" fill="#b7afa4" fill-rule="nonzero" d="M19167 8069V6624h-465v1445z"/><path id="5" fill="#b7afa4" fill-rule="nonzero" d="m20003 7450 351 619h527l-413-619zm-423-826v1445h454V6624Zm293 382h275c38 0 70 5 95 15 24 10 43 26 56 46s20 44 20 73c0 27-7 52-20 72-13 21-32 36-56 47-25 10-57 15-95 15h-275v341h316c142 0 257-21 346-64s154-102 196-177 63-160 63-255c0-96-21-181-63-256-42-74-107-133-196-175-89-43-204-64-346-64h-316z"/><path id="6" fill="#b7afa4" fill-rule="nonzero" d="M21432 7883h764v-326h-764zm378-603 178 399-31 118 152 272h517l-816-1549-816 1549h517l156-287-35-103z"/><path id="7" fill="#b7afa4" fill-rule="nonzero" d="M22884 6624v1445h454V6624Zm293 361h275c56 0 99 12 128 35 29 24 43 57 43 99 0 43-14 76-43 99-29 24-72 35-128 35h-275v362h275c142 0 257-20 346-60 88-40 154-97 196-171 42-75 63-163 63-265 0-103-21-191-63-265s-108-131-196-170c-89-40-204-60-346-60h-275z"/><path id="8" fill="#b7afa4" fill-rule="nonzero" d="M25461 6624h-1280v402h413v1043h454V7026h413z"/><path id="9" fill="#b7afa4" fill-rule="nonzero" d="M26025 7346c0-71 13-133 39-186s63-95 112-124c48-30 106-45 173-45 72 0 131 15 179 45 47 29 83 71 108 124s37 115 37 186-13 133-39 186c-26 54-63 96-112 125-48 30-106 45-173 45s-125-15-173-45c-49-29-86-71-112-125-26-53-39-115-39-186zm-481 0c0 116 19 222 59 317 39 96 94 179 166 249 71 70 156 124 255 162 98 38 207 57 325 57s227-19 325-57c99-38 184-92 255-162 72-70 127-153 167-249 39-95 58-201 58-317 0-115-20-220-59-313-40-94-97-175-170-242-73-68-158-119-256-155s-204-54-320-54c-113 0-218 18-316 54s-183 87-256 155c-73 67-130 148-171 242-42 93-62 198-62 313z"/><path id="10" fill="#b7afa4" fill-rule="nonzero" d="m27908 7450 351 619h527l-413-619zm-423-826v1445h454V6624Zm293 382h275c38 0 70 5 95 15 24 10 43 26 57 46 13 20 19 44 19 73 0 27-6 52-19 72-14 21-33 36-57 47-25 10-57 15-95 15h-275v341h316c142 0 257-21 346-64s154-102 196-177 63-160 63-255c0-96-21-181-63-256-42-74-107-133-196-175-89-43-204-64-346-64h-316z"/></g></g></g></svg>
