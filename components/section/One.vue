@@ -1,5 +1,5 @@
 <template>
-  <section class="quick-results-section">
+  <section class="first-section">
     <div class="left-section">
       <TextWithUnderlines
         text="Dominant web solutions for every brand"
@@ -43,7 +43,7 @@ const show = () => dialogTarget.value?.show()
 </script>
 
 <style scoped>
-.quick-results-section {
+.first-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 101px 405px 118px;
@@ -99,7 +99,7 @@ const show = () => dialogTarget.value?.show()
 /* =================== RESPONSIVE ======================= */
 
 @media screen and (min-width: 769px) and (max-width: 1000px) {
-  .quick-results-section {
+  .first-section {
     grid-template-columns: 56.5% 43.5%;
     grid-template-rows: auto auto auto auto auto;
     grid-template-areas:
@@ -144,7 +144,7 @@ const show = () => dialogTarget.value?.show()
 }
 
 @media screen and (max-width: 768px) {
-  .quick-results-section {
+  .first-section {
     display: flex;
     flex-direction: column;
     align-items: center;

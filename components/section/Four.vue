@@ -1,5 +1,5 @@
 <template>
-  <section class="most-important-section">
+  <section class="fourth-section">
     <TextWithUnderlines
       text="Focusing on What Truly Matters"
       class="sub-heading"
@@ -31,12 +31,12 @@ const show = () => dialogTarget.value?.show()
 </script>
 
 <style scoped>
-.most-important-section {
+.fourth-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 447px;
   grid-template-areas: 'left right';
-  margin-top: 5.4375rem;
+  margin-top: 8rem;
   margin-bottom: 12.8125rem;
 }
 
@@ -69,13 +69,10 @@ const show = () => dialogTarget.value?.show()
 /* =================== RESPONSIVE ======================= */
 
 @media screen and (min-width: 769px) and (max-width: 1000px) {
-  .most-important-section {
+  .fourth-section {
     grid-template-columns: 51.8% auto;
     grid-template-rows: auto;
     grid-template-areas: 'left right';
-    margin-top: 5.4375rem;
-    margin-bottom: 12.8125rem;
-    min-height: 27.9375rem;
     gap: 0 5vw;
   }
 
@@ -85,7 +82,7 @@ const show = () => dialogTarget.value?.show()
 }
 
 @media screen and (max-width: 768px) {
-  .most-important-section {
+  .fourth-section {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -119,7 +116,7 @@ const show = () => dialogTarget.value?.show()
 }
 
 @media screen and (max-width: 375px) {
-  .most-important-section {
+  .fourth-section {
     margin-top: 8rem;
     margin-bottom: 6rem;
   }

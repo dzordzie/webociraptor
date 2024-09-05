@@ -1,5 +1,5 @@
 <template>
-  <section class="path-section">
+  <section class="third-section">
     <TextWithUnderlines
       text="A Quick and Fearless Route to Web&nbsp;Dominance"
       class="path-heading"
@@ -36,7 +36,7 @@ const boldText = [
 </script>
 
 <style scoped>
-.path-section {
+.third-section {
   margin-top: 102px;
 }
 
@@ -50,7 +50,7 @@ const boldText = [
 /* =================== RESPONSIVE ======================= */
 
 @media screen and (max-width: 768px) {
-  .path-section {
+  .third-section {
     margin-top: clamp(6rem, 12vw, 7rem);
   }
 }

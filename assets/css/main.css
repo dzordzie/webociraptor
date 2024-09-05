@@ -23,9 +23,31 @@
   font-family: 'Jost', sans-serif;
 }
 
-html, dialog {
+html,
+dialog {
   font-size: 16px;
   color: var(--light);
+}
+
+body::before {
+  content: '';
+  display: block;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: -10;
+  background:
+    url(/img/ferns-background.png) center center no-repeat,
+    linear-gradient(
+      112deg,
+      rgba(0, 38, 41, 1) 0%,
+      rgba(1, 39, 42, 1) 30%,
+      rgba(32, 65, 68, 1) 50%,
+      rgba(84, 110, 112, 1) 73%
+    );
+  background-size: cover;
 }
 
 a {
@@ -56,17 +78,6 @@ textarea {
 .container {
   width: 100%;
   margin: 0 auto;
-  background:
-    url(/img/ferns-background.png) 0 center no-repeat,
-    linear-gradient(
-      112deg,
-      rgba(0, 38, 41, 1) 0%,
-      rgba(1, 39, 42, 1) 30%,
-      rgba(32, 65, 68, 1) 50%,
-      rgba(84, 110, 112, 1) 73%
-    );
-  background-size: cover;
-  background-attachment: fixed !important;
   overflow: hidden;
 }
 
