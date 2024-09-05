@@ -38,7 +38,6 @@
         <FormInput
           label="Website:"
           fieldType="input"
-          inputType="url"
           v-model="formData.web"
           class="web"
         />
