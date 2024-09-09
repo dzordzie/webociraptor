@@ -7,7 +7,11 @@
         alt="quotes"
       />
       <p class="customers-words">
-        {{ text }} ... <span class="red-text" href="#">čítať viac</span>
+        {{ isExpanded ? text : shortText }}
+
+        <span class="show-text" @click="toggleText">{{
+          isExpanded ? 'show less ▲' : 'show more ▼'
+        }}</span>
       </p>
     </div>
     <div class="customers-sign">
@@ -32,6 +36,17 @@ const props = defineProps({
   logo: String,
   web: String,
 })
+
+const isExpanded = ref(false)
+const maxLength = 320
+const shortText = computed(() => {
+  return props.text.length > maxLength
+    ? props.text.slice(0, maxLength) + ' ...'
+    : props.text
+})
+const toggleText = () => {
+  isExpanded.value = !isExpanded.value
+}
 </script>
 
 <style scoped>
@@ -53,7 +68,6 @@ const props = defineProps({
   border: 1px solid var(--outline);
   box-sizing: border-box;
   position: relative;
-  flex: 1;
 }
 
 .customers-words {
@@ -61,6 +75,8 @@ const props = defineProps({
   min-height: 14rem;
   font-weight: 400;
   margin: 2.25rem;
+  display: flex;
+  flex-direction: column;
 }
 
 .customers-sign {
@@ -91,10 +107,13 @@ const props = defineProps({
   filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.5));
 }
 
-.red-text {
-  font-weight: 700;
-  color: var(--pinkish);
+.show-text {
+  font-weight: 900;
+  color: rgb(255, 217, 214);
   cursor: pointer;
+  font-style: italic;
+  align-self: flex-end;
+  justify-self: flex-end;
 }
 
 /* =================== RESPONSIVE ======================= */
